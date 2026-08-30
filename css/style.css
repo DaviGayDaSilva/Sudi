@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  padding: 20px; 
+  font-family: sans-serif;
+  color: white; 
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  z-index: -1; 
+}
+
 .glass3d { 
   --filter-glass3d: blur(40px) brightness(1.25) saturate(3.1); 
   --color-glass3d: hsl(189 100% 75% / 0.2); 
