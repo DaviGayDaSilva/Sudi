@@ -29,6 +29,9 @@ video {
   border-radius: 16px;
   color: white;
   overflow: hidden;
+  text-align: center;
+  font-family: sans-serif, Arial, cursive;
+  flex-direction: column;
   
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -204,4 +207,6 @@ video {
 .rede {
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  
 }
