@@ -215,4 +215,16 @@ video {
   width: 300px;
   padding: 40px;
   border-radius: 16px;
+  color: white;
+  
+  background: 
+    url('https://transparenttextures.com'), 
+    rgba(255, 255, 255, 0.15); 
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
