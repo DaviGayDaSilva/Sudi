@@ -22,6 +22,7 @@ video {
 }
 
 .div1 {
+  display: flex;
   position: relative;
   width: 300px;
   padding: 40px;
@@ -41,7 +42,7 @@ video {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
-.glass-card::before {
+.div1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -218,7 +219,7 @@ video {
   color: white;
   
   background: 
-    url('https://transparenttextures.com'), 
+    url('https://transparenttextures.com'),
     rgba(255, 255, 255, 0.15); 
   
   backdrop-filter: blur(10px);
