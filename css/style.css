@@ -105,3 +105,98 @@ video {
   opacity: 0;
   transition-duration: .3s;
 }
+
+.Btn2 {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
+}
+
+.svgIcon2 {
+  transition-duration: .3s;
+}
+
+.svgIcon2 path {
+  fill: white;
+}
+
+.text2 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+.Btn2:hover {
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.Btn2:hover .text2 {
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.Btn2:hover .svgIcon2 {
+  opacity: 0;
+  transition-duration: .3s;
+}
+
+.Btn3 {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  background: #0274b3;
+}
+
+.svgIcon3 {
+  transition-duration: 0.3s;
+}
+
+.svgIcon3 path {
+  fill: white;
+}
+
+.text3 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.Btn3:hover {
+  width: 110px;
+  transition-duration: 0.4s;
+  border-radius: 30px;
+}
+
+.Btn3:hover .text3 {
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+.Btn3:hover .svgIcon3 {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
